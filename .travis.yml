@@ -7,9 +7,8 @@ before_script:
 install: JAVA_OPTS=-Xmx512m mvn install -DskipTests=true
 branches:
     only:
-        - master
+        - dev
 notifications:
-  irc: "irc.freenode.org#duraspace-ff"
   email:
-      - ff-tech@googlegroups.com
+      - piyapong.charoenwattana@ualberta.ca
 
