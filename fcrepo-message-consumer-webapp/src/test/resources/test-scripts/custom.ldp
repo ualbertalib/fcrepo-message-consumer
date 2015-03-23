@@ -1,0 +1,4 @@
+@prefix fcrepo : <http://fedora.info/definitions/v4/repository#>
+id      = . :: xsd:string ;
+title_tsi = dc:title :: xsd:string;
+uuid_ssi = fcrepo:uuid :: xsd:string ;

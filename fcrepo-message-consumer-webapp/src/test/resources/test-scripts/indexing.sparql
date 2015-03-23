@@ -1,0 +1,7 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX indexing: <http://fedora.info/definitions/v4/indexing#>
+        
+INSERT {
+  <> indexing:hasIndexingTransformation "default";
+  rdf:type indexing:Indexable }
+WHERE { }

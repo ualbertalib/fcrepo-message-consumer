@@ -1,0 +1,14 @@
+# SPARQL samples
+
+# find all uuid
+select ?s ?o
+where {
+ ?s <http://fedora.info/definitions/v4/repository#uuid> ?o
+}
+
+# find all indexing:Indexable
+select *
+where {
+  ?s ?p <http://fedora.info/definitions/v4/indexing#Indexable>
+}
+
