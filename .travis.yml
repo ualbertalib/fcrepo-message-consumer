@@ -7,7 +7,7 @@ before_script:
 install: JAVA_OPTS=-Xmx512m mvn install -DskipTests=true
 branches:
     only:
-        - dev
+        - pcharoen
 notifications:
   email:
       - piyapong.charoenwattana@ualberta.ca
