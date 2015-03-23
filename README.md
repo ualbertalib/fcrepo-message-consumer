@@ -1,5 +1,5 @@
 # Fedora Message Consumer
-[![Build Status](https://travis-ci.org/ualbertalib/fcrepo-message-consumer.svg?branch=dev)](https://travis-ci.org/ualbertalib/fcrepo-message-consumer)
+[![Build Status](https://travis-ci.org/ualbertalib/fcrepo-message-consumer.svg?branch=pcharoen)](https://travis-ci.org/ualbertalib/fcrepo-message-consumer)
 
 This is a fcrepo 4.x indexer that listens to the Fedora JMS topic, retrieves a message including pid and eventType, looks up object properties, gets and passes the transformed or untransformed properties on to any number of registered handlers.  It is built relying heavily on Spring machinery, including:
 
